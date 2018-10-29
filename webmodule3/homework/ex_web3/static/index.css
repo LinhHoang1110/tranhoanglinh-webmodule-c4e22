@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+
+*{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1rem
+}
+/* * {
+    border: red 1px dashed
+} */
+form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 1px 1px;
+    border-width: 3px;
+}
+
+button {
+    background-color: rgb(24, 24, 141);
+    color:white;
+}
