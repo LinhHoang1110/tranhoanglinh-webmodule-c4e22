@@ -1,0 +1,101 @@
+* {
+    border: 1px red dashed;
+
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%
+}
+
+#root {
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(aloha.jpg);
+}
+#reet {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    color: brown;
+
+}
+
+#heading {
+    font-family: 'PT Serif', serif;
+    color: brown;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 6px 3px;
+
+}
+
+#first {
+    color: brown;
+    font-family: 'PT Serif', serif;
+    margin-top: 100px;
+    width: 30%;
+    margin-left:180px;
+}
+
+.first{
+    width: 30%;
+    margin-left: 100px;
+    color: brown
+}
+
+#raat {
+    height: 70%;
+    margin-top: 100px;
+    background-image: url(https://thewritelife.com/wp-content/uploads/2014/06/You-Are-a-Writer.jpg);
+    background-repeat: no-repeat;
+    background-position: right 200px top 10px;
+
+}
+
+#riit {
+    height: 60%;
+    margin-top: 100px;
+    background-image: url(http://idtbardoli.com/images/sketch/fd4.jpg);
+    background-repeat: no-repeat;
+    background-position:  left 100px top 30px
+}
+
+#second {
+    width: 30%;
+    color: brown;
+    font-family: 'PT Serif', serif;
+    margin-left: 800px;
+}
+
+.second {
+    width: 30%;
+    color: brown;
+    margin-left: 730px;
+}
+
+#ruut {
+    height: 60%;
+    margin-top: 100px;
+    background-image: url(https://www.entinstitute.com/wp-content/uploads/2016/08/bigstock-135035885-300x300.jpg);
+    background-repeat: no-repeat;
+    background-position: right 30px top 30px;
+}
+
+#third {
+    width: 30%;
+    color: brown;
+    margin-left: 180px;
+    font-family: 'PT Serif', serif;
+}
+
+.third {
+    width: 30%;
+    color: brown;
+    margin-left: 100px
+}
