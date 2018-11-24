@@ -84,5 +84,47 @@ def home():
 def home1():
   return render_template("home.html")
 
+@app.route("/topics")
+def topics():
+  return render_template("topics.html")
+
+@app.route("/topic1")
+def topic1():
+  return render_template("topic1.html")
+
+@app.route("/topic2")
+def topic2():
+  return render_template("topic2.html")
+
+@app.route("/topic3")
+def topic3():
+  return render_template("topic3.html")
+
+@app.route("/topic4")
+def topic4():
+  return render_template("topic4.html")
+
+@app.route("/topic5")
+def topic5():
+  return render_template("topic5.html")
+
+@app.route("/topic6")
+def topic6():
+  return render_template("topic6.html")
+
+@app.route("/topic7")
+def topic7():
+  return render_template("topic7.html")
+
+@app.route("/topic8")
+def topic8():
+  return render_template("topic8.html")
+
+@app.route("/topic9")
+def topic9():
+  return render_template("topic9.html")
+
+
+
 if __name__ == '__main__':
   app.run(debug=True)

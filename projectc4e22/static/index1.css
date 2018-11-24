@@ -16,7 +16,7 @@ html, body {
     background-color: #a6a6a6;
     height:60%;
     padding: 20px 10px 20px 10px;
-    background-image: url(home-bg1.jpg);
+    background-image: url(https://images.unsplash.com/photo-1452800185063-6db5e12b8e2e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e2b5994cdf8eb13b0a8fb1b65ae60712&auto=format&fit=crop&w=889&q=80);
     background-size: cover;
 
 }
@@ -38,6 +38,14 @@ html, body {
     padding: 10px;
     border-radius: 20px;
 }
+/* #txt{
+    font-size: 25px;
+    height:80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+} */
 #txt{
     height:80%;
     display: flex;
@@ -45,14 +53,26 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+/* #lttxt{
+    font-family: 'Sacramento', cursive;
+    font-size:35px;
+    color:#ffffff;
+} */
 #lttxt{
+
     font-family: 'Sacramento', cursive;
     font-size:35px;
     color:#ffffff;
 }
-#bigtxt{
+/* #bigtxt{
     font-family: 'Libre Franklin', sans-serif;
-    font-size:60px;
+    font-size:50px;
+    color:#ffffff;
+} */
+#bigtxt{
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-size:50px;
     color:#ffffff;
 }
 #home_quiz{
@@ -66,6 +86,40 @@ html, body {
     
     
 }
+#bigtxt, #lttxt {
+
+    position: relative;
+    animation-name: title;
+    animation-duration: 4s;
+    float:left;
+}
+#quiz {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+#quiz:focus, .types:active, #quiz:active {
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: black;
+    background-color: black;
+    color: white;
+}
+
 #quiz{
     margin-top:30px;
     font-size:25px;
